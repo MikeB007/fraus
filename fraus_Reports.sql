@@ -1,4 +1,4 @@
---CK
+-- CK 2020
 -- all responses
 select q.qNo as QuestionNo, q.question, qat.No as optionNo, qat.option, a.rating,a.ip as Src from question q , question_answer_ip a, question_option_template qat
 where a.selected = 1 and
